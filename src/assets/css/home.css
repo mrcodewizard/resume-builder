@@ -1,0 +1,256 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Mulish', sans-serif;
+}
+.custom-container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.top-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+.top-strip button {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.sidebar {
+    background-color: #FAFAFA;
+    padding: 10px 10px;
+    height: 100%;
+}
+.sidebar li a i svg {
+    color: #000000;
+    margin-right: 8px;
+    font-size: 18px;
+}
+.sidebar li a {
+    padding: 0.5rem 0.5rem;
+}
+.sidebar li a span {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+.sidebar .btn-add {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 15px auto;
+    color: #17a8ee;
+}
+.resume-section {
+    padding: 15px 0px;
+    background: #fff;
+    margin: 20px 0px 10px;
+}
+.resume-section .top-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-head h4 {
+    font-size: 18px;
+    position: relative;
+}
+.top-head h4 svg {
+    font-size: inherit;
+    margin-left: 10px;
+}
+.lang-dropdown select {
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+.form-section .section-title {
+    color: #2A2F32;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 21px;
+    margin: 20px 0px 10px;
+}
+.btn-photo {
+    background-color: #F2E4E4;
+    outline: none;
+    border: 1px solid #F2E4E4;
+    margin-top: 18px;
+}
+.form-section label {
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+.form-section input,
+.form-section select {
+    border: 1px solid #ccc;
+}
+.form-section .form-field {
+    margin-bottom: 15px;
+}
+.form-section input:focus,
+.form-section select:focus {
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.form-section .quill .ql-snow:first-child {
+    display: none;
+}
+.form-section .ql-editor {
+    min-height: 180px;
+}
+.resume-section .resume-colTwo {
+    position: relative;
+    overflow: hidden;
+}
+.resume-preview .prof-basic {
+    background-color: #3D0F00; ;
+}
+.resume-preview .profile-info {
+    background-color: #3D0F00;
+    padding: 20px 15px;
+    height: 100%;
+}
+.resume-pdfCol {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.resume-pdf .organization-section > div:nth-child(4),
+.resume-pdf .organization-section > div:last-child {
+    opacity: 0;
+}
+
+.resume-pdfCol .resume-pdf .profile-info {
+    background-color: #3D0F00;
+    padding: 20px 15px;
+    position: absolute;
+    height: 100%;
+    width: 27.4%;
+    max-height: 672px;
+    overflow: hidden;
+}
+.work-experience .work-outline, .education .edu-outline{
+    margin-bottom: 20px;
+}
+.work-experience > h4, .education > h4 {
+    color: #FF7246;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 0.864px solid #FFFFFF;;
+}
+.work-experience .work-title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 12px;
+    margin-bottom: 3px;
+}
+.work-experience p {
+    color: #fff;
+    font-size: 11.5px;
+    text-align: left;
+    padding-left: 12px;
+    margin-bottom: 3px;
+}
+
+.education .edu-title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 12px;
+    margin-bottom: 3px;
+}
+.education p {
+    color: #fff;
+    font-size: 11.5px;
+    text-align: left;
+    padding-left: 12px;
+    margin-bottom: 3px;
+}
+.equal-row > div {
+    display: flex;
+}
+.profile-detail .prof-name {
+    color: #FF7246;
+    font-size: 22px;
+    font-weight: 700;
+}
+.profile-detail .prof-design {
+    font-size: 14px;
+    font-weight: 600;
+}
+.profile-detail .profile-desc {
+    font-size: 14px;
+}
+.profile-detail .icon img {
+    width: 22px;
+    max-width: 22px;
+}
+.profile-detail .info {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.skill-section {
+    margin: 30px 0px;
+}
+.skill-section .section-title {
+    color: #FF7246;
+    font-size: 16px;
+    padding-bottom: 14px;
+    border-bottom: 0.864px solid #3D0F00;;
+}
+.skill-section .skill-item {
+    margin-bottom: 5px;
+    display: flex;
+}
+.skill-item p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.skill-item .skill-rate {
+    text-align: right;
+}
+.skill-item .skill-rate .sq {
+    background-color: #DADADA;
+    width: 11px;
+    height: 11px;
+    border-radius: 3.24px;
+    margin-right: 4px;
+    display: inline-block;
+    text-align: right;
+}
+.skill-item .skill-rate .sq.sq-fill {
+    background: #FF7246;
+}
+.organization-section {
+    margin: 30px 0px;
+}
+.organization-section .section-title {
+    color: #FF7246;
+    font-size: 16px;
+    padding-bottom: 14px;
+    border-bottom: 0.864px solid #3D0F00;;
+}
+.organization-section .org-item {
+    margin-bottom: 15px;
+}
+.organization-section .org-name {
+    font-size: 12px;
+    font-weight: 700;
+}
+.organization-section p {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
